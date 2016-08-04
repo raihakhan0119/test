@@ -10,7 +10,7 @@ def makeHash(password):
 	loginDict[password] = hash
 	print
 def login(loginDict):
-	loginDict = input("What would you like to use as your username? You cannot use spaces. ")
+	loginDict = input("What would you like to use as your username? You cannot use ANY spaces. ")
 	
 passwordGuess = password
 
